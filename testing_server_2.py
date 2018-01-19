@@ -30,7 +30,7 @@ def makeWebhookResult(req):
         return {}
     result = req.get("result")
     parameters = result.get("parameters")
-    name = parameters.get("smartplug")
+    name = parameters.get("smart_plug")
     # 코드추가 #
     # 코드추가 #
     # 코드추가 #
@@ -54,7 +54,7 @@ def makeWebhookResult(req):
     return {
         "speech": speech,
         "displayText": speech,
-        "source": "ElectricPower_testing"
+        "source": "power_searching"
     }
 
 if __name__ == '__main__':
