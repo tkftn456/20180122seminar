@@ -35,7 +35,7 @@
 - ngrok 설치
 - 터미널창에 ngrok http 5000 입력
 - 터미널창에 나오는 포워딩된 주소를 복사
-- Dialogflow에서 Fulfillment 항목을 들어간후 webhook 부분을 활성화 시킨 후 복사  한 주소를 입력 하고 저장
+- Dialogflow에서 Fulfillment 항목을 들어간후 webhook 부분을 활성화 시킨 후 복사  한 주소를 입력 하고 뒤에 /webhook 을 추가한 후 저장
 - Intents 항목에 power_searching을 들어간후 Fulfillment가 생긴 부분에 Use webhook 을 활성화 한 후 저장
 
 # step 4. 최종 TEST
